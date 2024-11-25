@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>rototui_parking_planner</name>
+  <version>0.0.0</version>
+  <description>Autonomous Parking Planner for Rototui</description>
+  <maintainer email="T59627@tofas.com.tr">cem</maintainer>
+  <license>Apache-2.0</license>
+
+
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_auto</buildtool_depend>
+  <buildtool_depend>autoware_cmake</buildtool_depend>
+
+  <!-- find dependencies -->
+
+  <depend>rclcpp</depend>
+  <depend>rclcpp_components</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>autoware_map_msgs</depend>
+  <depend>autoware_planning_msgs</depend>
+  <depend>autoware_perception_msgs</depend>
+  <depend>autoware_adapi_v1_msgs</depend>
+  <depend>autoware_route_handler</depend>
+  <depend>tier4_autoware_utils</depend>
+  <depend>tier4_planning_msgs</depend>
+  <depend>lanelet2_core</depend>
+  <depend>lanelet2_extension</depend>
+  <depend>planning_test_utils</depend>
+  <depend>rototui_interfaces</depend>
+  <depend>autoware_freespace_planning_algorithms</depend>
+  <depend>autoware_freespace_planner</depend>
+
+  <exec_depend>ros2cli</exec_depend>
+  <exec_depend>topic_tools</exec_depend>
+
+
+  <test_depend>ament_cmake_ros</test_depend>
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
